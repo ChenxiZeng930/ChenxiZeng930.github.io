@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>项目 - Chenxi Zeng</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html">Chenxi Zeng</a>
+      <nav class="nav" aria-label="主导航">
+        
+        <a class="home-link" href="index.html">首页</a>
+        <a href="about.html">关于</a>
+        <a aria-current="page" href="projects.html">项目</a>
+        <a href="honors.html">荣誉</a>
+        <a href="notes.html">学习笔记</a>
+      </nav>
+    </header>
+
+    <main class="page">
+      <section class="page-title">
+        <p class="eyebrow">Projects</p>
+        <h1>科研与工程项目</h1>
+        <p>从自动化实验室操作系统到跨模态检索，再到生物医药 AI，我更关心模型如何进入真实问题。</p>
+      </section>
+
+      <section class="project-stack">
+        <article class="project" id="lab-os">
+          <div class="project-meta">
+            <span>2026.03 - 至今</span>
+            <span>上海人工智能实验室</span>
+          </div>
+          <h2>Lab OS：自动化生物实验室操作系统</h2>
+          <p>
+            面向生物实验场景中操作碎片化、人工干预频繁的问题，构建以轮式双臂机器人和 AI Agent 为核心的
+            智能体协作自动化系统，覆盖 LNP 制备等典型实验流程。
+          </p>
+          <p>
+            负责 GUI Agent 模块开发，将仪器软件操作流程抽象为有序状态转换，配合 Python-C# 异步通信协议与
+            Win32 弹窗自动处理机制，实现软件侧自动控制。
+          </p>
+          <div class="tag-list">
+            <span>GUI Agent</span>
+            <span>状态机</span>
+            <span>实验室自动化</span>
+            <span>Python / C#</span>
+          </div>
+        </article>
+
+        <article class="project" id="conquer">
+          <div class="project-meta">
+            <span>2025.04 - 2025.08</span>
+            <span>第一作者</span>
+          </div>
+          <h2>CONQUER：上下文感知表示和查询增强的文本行人搜索</h2>
+          <p>
+            针对文本行人搜索中的跨模态差异与查询模糊问题，提出训练阶段 CARE 模块与推理阶段 IQE 模块，
+            在 CUHK-PEDES、ICFG-PEDES、RSTPReid 数据集上取得领先表现。
+          </p>
+          <p>
+            主导框架方案设计与验证，实现 CARE 中基于最优传输的对齐算法，并设计 IQE 中基于 MLLM 问答的
+            查询增强逻辑，完成跨域鲁棒性与模块协同消融实验。
+          </p>
+          <div class="project-actions">
+            <a class="button secondary" href="https://ieeexplore.ieee.org/document/11461248">论文链接</a>
+            <a class="button secondary" href="https://github.com/zqxie77/CONQUER">GitHub: zqxie77/CONQUER</a>
+          </div>
+          <div class="tag-list">
+            <span>Text-based Person Search</span>
+            <span>Optimal Transport</span>
+            <span>MLLM</span>
+            <span>ICASSP</span>
+          </div>
+        </article>
+
+        <article class="project" id="mfsl-dti">
+          <div class="project-meta">
+            <span>2025.08 - 2025.11</span>
+            <span>第一作者</span>
+          </div>
+          <h2>MFSL-DTI：融合多模态与自监督学习的药物-靶点相互作用预测</h2>
+          <p>
+            融合 2D 自监督表征学习与 3D 几何深度学习，通过双通道 GCN、跨注意力融合机制与 AutoML 引擎，
+            解决序列类方法缺乏空间信息、结构类方法泛化性不足以及冷启动场景难题。
+          </p>
+          <p>
+            负责核心算法架构设计与实现，主导冷启动场景实验设计、性能分析和消融研究，验证 3D 几何信息对
+            新靶点预测的重要作用。论文已投递 Briefings in Bioinformatics。
+          </p>
+          <div class="tag-list">
+            <span>Drug-Target Interaction</span>
+            <span>GCN</span>
+            <span>Cross Attention</span>
+            <span>Self-supervised Learning</span>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© 2026 Chenxi Zeng</span>
+      <span>Built for GitHub Pages</span>
+    </footer>
+  </body>
+</html>
+
+

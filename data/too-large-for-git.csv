@@ -1,0 +1,2 @@
+﻿id,title,sourceName,section,category,sizeBytes,sizeMB,priority,excluded,excludeReason,downloadUrl,previewUrl,status
+note-0032,数据库系统原理笔记,数据库系统原理笔记.pdf,学习笔记,数据库原理,117705361,112.25,2,False,单文件超过 GitHub 普通仓库 100MiB 限制，需压缩或放入 GitHub Releases。,,,too-large-for-git

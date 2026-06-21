@@ -1,0 +1,50 @@
+{
+  "generatedAt": "2026-06-21 19:28:09",
+  "totalCount": 88,
+  "publicCount": 87,
+  "excludedCount": 1,
+  "totalSizeGB": 0.87,
+  "categories": [
+    {
+      "name": "java",
+      "count": 4
+    },
+    {
+      "name": "操作系统",
+      "count": 15
+    },
+    {
+      "name": "数据库原理",
+      "count": 17
+    },
+    {
+      "name": "数据结构",
+      "count": 25
+    },
+    {
+      "name": "概率论与数理统计",
+      "count": 6
+    },
+    {
+      "name": "算法分析与设计",
+      "count": 20
+    }
+  ],
+  "tooLarge": [
+    {
+      "id": "note-0032",
+      "title": "数据库系统原理笔记",
+      "sourceName": "数据库系统原理笔记.pdf",
+      "section": "学习笔记",
+      "category": "数据库原理",
+      "sizeBytes": 117705361,
+      "sizeMB": 112.25,
+      "priority": 2,
+      "excluded": false,
+      "excludeReason": "单文件超过 GitHub 普通仓库 100MiB 限制，需压缩或放入 GitHub Releases。",
+      "downloadUrl": "",
+      "previewUrl": "",
+      "status": "too-large-for-git"
+    }
+  ]
+}
