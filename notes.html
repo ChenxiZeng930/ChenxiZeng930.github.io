@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="zh-CN">
   <head>
     <meta charset="utf-8">
@@ -10,7 +10,6 @@
     <header class="site-header">
       <a class="brand" href="index.html">Chenxi Zeng</a>
       <nav class="nav" aria-label="主导航">
-        
         <a class="home-link" href="index.html">首页</a>
         <a href="about.html">关于</a>
         <a href="projects.html">项目</a>
@@ -19,35 +18,28 @@
       </nav>
     </header>
 
-    <main class="page">
+    <main class="page notes-page">
       <section class="page-title">
         <p class="eyebrow">Notes Library</p>
         <h1>学习笔记</h1>
-        <p>
-          已按你的文件夹分类整理首批 PDF 笔记。已发布的文件可直接在线预览和下载。
-        </p>
+        <p>这里整理课程学习、竞赛训练和科研笔记，支持按学科分类浏览、标题搜索、PDF 在线预览与下载。</p>
       </section>
 
-      <section class="notes-dashboard" aria-label="笔记统计">
-        <article>
-          <span id="totalCount">-</span>
-          <p>备份条目</p>
-        </article>
-        <article>
-          <span id="publicCount">-</span>
+      <section class="notes-overview" aria-label="笔记概览">
+        <article class="notes-stat-card">
+          <span id="publicCount">87</span>
           <p>公开候选</p>
         </article>
-        <article>
-          <span id="excludedCount">-</span>
-          <p>已排除</p>
-        </article>
-        <article>
-          <span id="totalSize">-</span>
-          <p>总大小</p>
-        </article>
+        <aside class="category-panel" aria-label="学科分类">
+          <div class="category-panel-head">
+            <p class="eyebrow">Subjects</p>
+            <h2>学科分类</h2>
+          </div>
+          <div id="categoryCards" class="category-cards"></div>
+        </aside>
       </section>
 
-      <section class="notes-tools">
+      <section class="notes-tools public-notes-tools">
         <label class="search-box">
           <span>搜索标题</span>
           <input id="searchInput" type="search" placeholder="输入课程、章节、关键词">
@@ -58,21 +50,12 @@
             <option value="all">全部分类</option>
           </select>
         </label>
-        <a class="button secondary" href="data/notes-review.csv">下载审核清单</a>
-        <a class="button secondary" href="data/too-large-for-git.csv">超大文件清单</a>
-      </section>
-
-      <section class="notice">
-        <strong>发布状态</strong>
-        <p>
-          当前笔记已按 E:\ChenxiZeng930-personal-website\笔记 的文件夹分类生成。其中 87 个 PDF 可直接预览和下载；1 个文件超过 GitHub 普通仓库 100MiB 限制，已单独记录在 `data/too-large-for-git.csv`。
-        </p>
       </section>
 
       <section>
         <div class="section-head compact">
-          <p class="eyebrow">Learning Notes</p>
-          <h2>公开候选列表</h2>
+          <p class="eyebrow">PDF Notes</p>
+          <h2>笔记列表</h2>
         </div>
         <div id="notesList" class="notes-list" aria-live="polite"></div>
       </section>
@@ -85,4 +68,3 @@
     <script src="script.js"></script>
   </body>
 </html>
-
