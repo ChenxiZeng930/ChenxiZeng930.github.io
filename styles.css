@@ -1,4 +1,4 @@
-﻿:root {
+:root {
   color-scheme: light;
   --bg: #f7f8f5;
   --surface: #ffffff;
@@ -93,7 +93,9 @@ main {
 
 .hero {
   display: grid;
-  grid-template-columns: 180px minmax(0, 720px);\n  gap: 48px;\n  justify-content: center;\n  padding-left: 42px;
+  grid-template-columns: 180px minmax(0, 720px);
+  gap: 88px;
+  justify-content: center;
   align-items: center;
   min-height: auto;
   padding: 72px 0 58px;
@@ -223,7 +225,8 @@ main {
 .panel,
 .project,
 .timeline article,
-.notes-dashboard article,\n.notes-stat-card,
+.notes-dashboard article,
+.notes-stat-card,
 .notice,
 .note-card {
   background: var(--surface);
@@ -402,7 +405,8 @@ main {
   margin-bottom: 22px;
 }
 
-.notes-dashboard article,\n.notes-stat-card {
+.notes-dashboard article,
+.notes-stat-card {
   padding: 20px;
 }
 
